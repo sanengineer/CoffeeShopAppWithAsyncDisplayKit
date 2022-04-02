@@ -1,0 +1,13 @@
+name: CoffeeShopAppWithAsyncDisplayKit
+options:
+  xcodeVersion: 1000
+  deploymentTarget:
+    ios: 10.0
+  postGenCommand: pod install
+  bundleIdPrefix: com.sanengineer.CoffeeShopAppWithAsyncDisplayKit
+targets:
+  CoffeeShopAppWithAsyncDisplayKit:
+    type: application
+    platform: iOS
+    deploymentTarget: "10.0"
+    sources: [CoffeeShopAppWithAsyncDisplayKit]
